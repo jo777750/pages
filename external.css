@@ -1,0 +1,99 @@
+body
+{
+  background-color: tomato;   
+} 
+h1 {
+    color: navy;
+    background-color: yellow;
+   	border-radius: 45px;
+   	border-style: groove;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	
+}
+.highlight {
+  background-color:yellow;
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+
+}
+#reactrow {
+display: inline-block
+	color: navy;
+    background-color: lightgrey;
+	border-radius: 45px;
+   	border-style: groove;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 250px;
+    margin-left: 0px;
+
+}
+.firstrow {
+	color: navy;
+    background-color: orange;
+	border-radius: 45px;
+   	border-style: groove;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 220px;
+    margin-left: 0px;
+
+}
+.secondrow {
+
+	color: magenta;
+    background-color: lightgrey;
+   	border-radius: 15px;
+   	border-style: ridge;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    margin-left: 0px;
+	
+}
+#thirdrow {
+display: inline-block
+	color: navy;
+    background-color: lightgrey;
+   	border-style: dotted;
+	opacity: 0.8;
+	outline-style: solid;
+	outline-color:tomato;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 180px;
+    margin-left: 0px; 
+	
+}
+
+#alig {
+	text-align:center
+}
+
+
+.firstrow ul{
+		list-style-type: kannada  ;
+  
+}
+ul{
+  list-style-type: "\1F44D"; // thumbs up sign}
+	
+.flex-container   {
+
+	display: flex;
+	flex-direction:column;
+	justify-content:left;
+	align-items:flex-start;
+	
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 180px;
+    margin-left: 0px; 
+	color: red
+	}
+	
+	.flex-container > div {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
