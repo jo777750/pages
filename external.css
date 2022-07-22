@@ -72,6 +72,11 @@ display: inline-block
 #alig2 {
 	text-align:center
 }
+
+#alig3 {
+	text-align:right
+}
+
 .firstrow ul{
 		list-style-type: kannada  ;
   
