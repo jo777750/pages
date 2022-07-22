@@ -79,28 +79,14 @@ display: inline-block
 
 .firstrow ul{
 		list-style-type: kannada  ;
-  
 }
 ul{
-  list-style-type: "\1F44D"; // thumbs up sign}
-	
-.flex-container   {
+  list-style-type: "\1F44D"; // thumbs up sign
+  }
 
-	display: flex;
-	flex-direction:column;
-	justify-content:left;
-	align-items:flex-start;
-	
-	margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 180px;
-    margin-left: 0px; 
-	color: red
-	}
-	
-	.flex-container > div {
-  background-color: white;
-  margin: 10px;
-  padding: 20px;
-  font-size: 20px;
+
+.hiddenthankyou {
+display:none;
+opacity: 0.0;
+
 }
